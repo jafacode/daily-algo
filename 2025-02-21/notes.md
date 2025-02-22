@@ -1,14 +1,13 @@
 **Date: 2025.02.20** \
-**[Problem Name](https://codeforces.com/problemset/problem/2061/A): Kevin and Arithmetic** \
+**[Problem Name](https://codeforces.com/problemset/problem/2063/A): Minimal Coprime** \
 **Rating:** 800
 
 **Problem Summary** \
-It is very simple, no matter how many even numbers you have only one will be +1, then any other odd numbers is a +1.\
+Given a range [l, r], find the number of minimal coprime segments where a segment [x, y] is coprime if gcd(x, y) = 1, and minimal if it contains no smaller coprime segment. \
 
 **Approches**
-1. Brute force 
-- Count number of even numbers and odd numbers
-- If even numbers is more than 1 -> +1
-    -Then add +x number of odd numbers to the sum
-- If even numbers is 0
-    -Output = even numbers count - 1
+    Count consecutive coprime pairs [x, x+1] starting from max(l, 2) to r-1.
+
+    Add 1 if 1 is in [l, r] for the segment [1, 1].
+
+    This works because consecutive pairs and [1, 1] are the only minimal coprime segments.
