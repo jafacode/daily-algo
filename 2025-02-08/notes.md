@@ -1,6 +1,6 @@
-**Date: 2025.02.07** \
-**[Problem Name](https://codeforces.com/problemset/problem/2062/C): Cirno and Operations** \
-**Rating:** 1200
+**Date: 2025.02.08** \
+**[Problem Name](https://codeforces.com/problemset/problem/2062/B): Clockwork** \
+**Rating:** 900
 <body>
 Cirno has a sequence 𝑎 of length 𝑛. She can perform either of the following two operations for any (possibly, zero) times unless the current length of 𝑎 is 1:
 
@@ -32,4 +32,4 @@ Find the largest possible sum of a sequence of numbers. You can reverse the orde
 1. Brute force is the only method I can come up with as of now. Try:
 - Original Sequence
 - Original Difference Sequence
-- Reversed Difference Sequence  
+- Reversed Difference Sequence
