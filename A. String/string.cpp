@@ -6,6 +6,7 @@ void solve() {
     string s;
     int count = 0;
     cin >> s;
+    cout << s;
 
     if(s.find_first_not_of('0') == string::npos){
         cout << 0 <<endl;
@@ -14,7 +15,7 @@ void solve() {
 
     while(s.find_first_not_of('0') != string::npos){
         char key = '1';
-        int invert[s.size()];
+        int invert[s.size()];       
         int invertIndex = 0;
         //create empty array of integers
 

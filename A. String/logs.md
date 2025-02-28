@@ -6,3 +6,5 @@ Continued programming, took a lot of time finding and relearning the fundamental
 Finished coding, need to debug
 2025.02.26
 Kept debugging
+2025.02.28
+Rewrote my code with specific comments and it fixed the problem.
